@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "name": "Táo Lai",
+      "price": 4,
+      "quantity": 10,
+      "id": 2
+    },
+    {
+      "name": "Dưa hấu",
+      "price": 10000,
+      "quantity": 10,
+      "id": 3
+    },
+    {
+      "name": "Táo",
+      "price": 20000,
+      "quantity": 10,
+      "id": 4
+    },
+    {
+      "name": "Táo",
+      "price": 20000,
+      "quantity": 10,
+      "id": 5
+    }
+  ]
+}
