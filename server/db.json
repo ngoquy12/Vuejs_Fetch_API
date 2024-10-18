@@ -1,158 +1,251 @@
 {
-  "products": [
+  "categories": [
     {
-      "name": "Ổi chín",
-      "price": 20000,
-      "quantity": 20,
-      "description": "Chua",
-      "id": 2
+      "id": 1,
+      "name": "Hoa quả",
+      "description": "Danh mục các loại hoa quả."
+    },
+    {
+      "id": 2,
+      "name": "Rau củ",
+      "description": "Danh mục các loại rau củ."
     },
     {
       "id": 3,
-      "name": "Chuối",
-      "price": 8000,
-      "quantity": 20,
-      "description": "Chín vàng, mềm"
+      "name": "Thịt",
+      "description": "Danh mục các loại thịt."
     },
     {
       "id": 4,
-      "name": "Dưa hấu",
-      "price": 15000,
-      "quantity": 7,
-      "description": "Ngọt và mọng nước"
+      "name": "Sản phẩm từ sữa",
+      "description": "Danh mục các sản phẩm từ sữa."
     },
     {
       "id": 5,
-      "name": "Nho",
+      "name": "Thực phẩm khô",
+      "description": "Danh mục các loại thực phẩm khô."
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Ổi chín",
       "price": 20000,
-      "quantity": 12,
-      "description": "Nho ngọt, không hạt"
+      "quantity": 20,
+      "description": "Chua ngọt, giòn.",
+      "categoryId": 1,
+      "image": "https://images2.thanhnien.vn/528068263637045248/2023/9/17/2-oi-shutterstock-1694953624149847722825.jpg",
+      "status": 1,
+      "createdAt": "18/10/2022"
+    },
+    {
+      "id": 2,
+      "name": "Cam ngọt",
+      "price": 15000,
+      "quantity": 30,
+      "description": "Ngọt mát và nhiều vitamin.",
+      "categoryId": 1,
+      "image": "https://images2.thanhnien.vn/528068263637045248/2023/9/17/2-oi-shutterstock-1694953624149847722825.jpg",
+      "status": 0,
+      "createdAt": "19/10/2022"
+    },
+    {
+      "id": 3,
+      "name": "Dưa hấu",
+      "price": 25000,
+      "quantity": 15,
+      "description": "Mát lạnh và bổ dưỡng.",
+      "categoryId": 1,
+      "image": "https://images2.thanhnien.vn/528068263637045248/2023/9/17/2-oi-shutterstock-1694953624149847722825.jpg",
+      "status": 1,
+      "createdAt": "20/10/2022"
+    },
+    {
+      "id": 4,
+      "name": "Nho",
+      "price": 30000,
+      "quantity": 10,
+      "description": "Ngọt và nhiều nước.",
+      "categoryId": 1,
+      "image": "https://images2.thanhnien.vn/528068263637045248/2023/9/17/2-oi-shutterstock-1694953624149847722825.jpg",
+      "status": 1,
+      "createdAt": "21/10/2022"
+    },
+    {
+      "id": 5,
+      "name": "Mận",
+      "price": 18000,
+      "quantity": 25,
+      "description": "Chua ngọt, ngon miệng.",
+      "categoryId": 1,
+      "image": "https://images2.thanhnien.vn/528068263637045248/2023/9/17/2-oi-shutterstock-1694953624149847722825.jpg",
+      "status": 0,
+      "createdAt": "22/10/2022"
     },
     {
       "id": 6,
-      "name": "Xoài",
-      "price": 18000,
-      "quantity": 8,
-      "description": "Chín, ngọt đậm"
+      "name": "Khoai tây",
+      "price": 10000,
+      "quantity": 40,
+      "description": "Nguyên liệu chế biến đa dạng.",
+      "categoryId": 2,
+      "image": "https://images2.thanhnien.vn/528068263637045248/2023/9/17/2-oi-shutterstock-1694953624149847722825.jpg",
+      "status": 1,
+      "createdAt": "23/10/2022"
     },
     {
       "id": 7,
-      "name": "Bưởi",
-      "price": 25000,
-      "quantity": 5,
-      "description": "Bưởi hồng ngọt"
+      "name": "Cà rốt",
+      "price": 8000,
+      "quantity": 50,
+      "description": "Giàu vitamin A.",
+      "categoryId": 2,
+      "image": "https://images2.thanhnien.vn/528068263637045248/2023/9/17/2-oi-shutterstock-1694953624149847722825.jpg",
+      "status": 1,
+      "createdAt": "24/10/2022"
     },
     {
       "id": 8,
-      "name": "Dứa",
-      "price": 9000,
-      "quantity": 10,
-      "description": "Ngọt và thơm"
+      "name": "Bông cải xanh",
+      "price": 20000,
+      "quantity": 20,
+      "description": "Rau xanh giàu dinh dưỡng.",
+      "categoryId": 2,
+      "image": "https://images2.thanhnien.vn/528068263637045248/2023/9/17/2-oi-shutterstock-1694953624149847722825.jpg",
+      "status": 1,
+      "createdAt": "25/10/2022"
     },
     {
       "id": 9,
-      "name": "Lê",
-      "price": 14000,
-      "quantity": 13,
-      "description": "Giòn và mọng nước"
+      "name": "Thịt gà",
+      "price": 60000,
+      "quantity": 35,
+      "description": "Thịt trắng, ít mỡ.",
+      "categoryId": 3,
+      "image": "https://images2.thanhnien.vn/528068263637045248/2023/9/17/2-oi-shutterstock-1694953624149847722825.jpg",
+      "status": 1,
+      "createdAt": "26/10/2022"
     },
     {
       "id": 10,
-      "name": "Mận",
-      "price": 11000,
-      "quantity": 9,
-      "description": "Chua ngọt tự nhiên"
+      "name": "Thịt heo",
+      "price": 55000,
+      "quantity": 30,
+      "description": "Thịt ngon, dễ chế biến.",
+      "categoryId": 3,
+      "image": "https://images2.thanhnien.vn/528068263637045248/2023/9/17/2-oi-shutterstock-1694953624149847722825.jpg",
+      "status": 1,
+      "createdAt": "27/10/2022"
     },
     {
       "id": 11,
-      "name": "Chanh",
-      "price": 6000,
-      "quantity": 25,
-      "description": "Tươi, có vị chua"
+      "name": "Thịt bò",
+      "price": 120000,
+      "quantity": 20,
+      "description": "Thịt đỏ, giàu dinh dưỡng.",
+      "categoryId": 3,
+      "image": "https://images2.thanhnien.vn/528068263637045248/2023/9/17/2-oi-shutterstock-1694953624149847722825.jpg",
+      "status": 1,
+      "createdAt": "28/10/2022"
     },
     {
       "id": 12,
-      "name": "Ổi",
-      "price": 9000,
-      "quantity": 18,
-      "description": "Ngọt và giòn"
+      "name": "Sữa đặc",
+      "price": 25000,
+      "quantity": 40,
+      "description": "Sữa ngọt, béo.",
+      "categoryId": 4,
+      "image": "https://images2.thanhnien.vn/528068263637045248/2023/9/17/2-oi-shutterstock-1694953624149847722825.jpg",
+      "status": 0,
+      "createdAt": "29/10/2022"
     },
     {
       "id": 13,
-      "name": "Lựu",
-      "price": 16000,
-      "quantity": 6,
-      "description": "Ngọt và nhiều hạt"
+      "name": "Phô mai",
+      "price": 30000,
+      "quantity": 25,
+      "description": "Ngon để ăn hoặc chế biến.",
+      "categoryId": 4,
+      "image": "https://images2.thanhnien.vn/528068263637045248/2023/9/17/2-oi-shutterstock-1694953624149847722825.jpg",
+      "status": 1,
+      "createdAt": "30/10/2022"
     },
     {
       "id": 14,
-      "name": "Dừa",
-      "price": 12000,
-      "quantity": 14,
-      "description": "Nước ngọt, mát"
+      "name": "Sữa chua",
+      "price": 20000,
+      "quantity": 15,
+      "description": "Ngon và bổ dưỡng.",
+      "categoryId": 4,
+      "image": "https://images2.thanhnien.vn/528068263637045248/2023/9/17/2-oi-shutterstock-1694953624149847722825.jpg",
+      "status": 0,
+      "createdAt": "31/10/2022"
     },
     {
       "id": 15,
-      "name": "Kiwi",
-      "price": 22000,
-      "quantity": 8,
-      "description": "Chua ngọt, bổ dưỡng"
+      "name": "Gạo",
+      "price": 30000,
+      "quantity": 50,
+      "description": "Nguyên liệu chính trong bữa ăn.",
+      "categoryId": 5,
+      "image": "https://images2.thanhnien.vn/528068263637045248/2023/9/17/2-oi-shutterstock-1694953624149847722825.jpg",
+      "status": 1,
+      "createdAt": "01/11/2022"
     },
     {
       "id": 16,
-      "name": "Sầu riêng",
-      "price": 30000,
-      "quantity": 4,
-      "description": "Đậm đà, mùi đặc trưng"
+      "name": "Mì tôm",
+      "price": 5000,
+      "quantity": 100,
+      "description": "Tiện lợi, nhanh chóng.",
+      "categoryId": 5,
+      "image": "https://images2.thanhnien.vn/528068263637045248/2023/9/17/2-oi-shutterstock-1694953624149847722825.jpg",
+      "status": 0,
+      "createdAt": "02/11/2022"
     },
     {
       "id": 17,
-      "name": "Na",
-      "price": 17000,
-      "quantity": 10,
-      "description": "Chín mềm, thơm"
+      "name": "Đậu xanh",
+      "price": 12000,
+      "quantity": 40,
+      "description": "Dinh dưỡng, dễ chế biến.",
+      "categoryId": 5,
+      "image": "https://images2.thanhnien.vn/528068263637045248/2023/9/17/2-oi-shutterstock-1694953624149847722825.jpg",
+      "status": 1,
+      "createdAt": "03/11/2022"
     },
     {
       "id": 18,
-      "name": "Mãng cầu",
-      "price": 18000,
-      "quantity": 7,
-      "description": "Ngọt và nhiều dinh dưỡng"
+      "name": "Bánh mì",
+      "price": 10000,
+      "quantity": 60,
+      "description": "Bánh ăn kèm trong bữa ăn.",
+      "categoryId": 5,
+      "image": "https://images2.thanhnien.vn/528068263637045248/2023/9/17/2-oi-shutterstock-1694953624149847722825.jpg",
+      "status": 1,
+      "createdAt": "04/11/2022"
     },
     {
       "id": 19,
-      "name": "Quýt",
-      "price": 13000,
-      "quantity": 20,
-      "description": "Ngọt dịu, dễ ăn"
+      "name": "Muối",
+      "price": 2000,
+      "quantity": 150,
+      "description": "Gia vị không thể thiếu.",
+      "categoryId": 5,
+      "image": "https://images2.thanhnien.vn/528068263637045248/2023/9/17/2-oi-shutterstock-1694953624149847722825.jpg",
+      "status": 0,
+      "createdAt": "05/11/2022"
     },
     {
       "id": 20,
-      "name": "Việt quất",
-      "price": 25000,
-      "quantity": 9,
-      "description": "Chua ngọt, giàu dinh dưỡng"
-    },
-    {
-      "name": "Mèn mén",
-      "price": 20000,
-      "quantity": 10,
-      "description": "Hơi khô",
-      "id": 21
-    },
-    {
-      "name": "Mèn mén",
-      "price": 20000,
-      "quantity": 10,
-      "description": "Hơi khô",
-      "id": 22
-    },
-    {
-      "name": "Mèn mén",
-      "price": 20000,
-      "quantity": 10,
-      "description": "Hơi khô",
-      "id": 23
+      "name": "Hạt nêm",
+      "price": 2500,
+      "quantity": 100,
+      "description": "Gia vị nêm nếm cho món ăn.",
+      "categoryId": 5,
+      "image": "https://images2.thanhnien.vn/528068263637045248/2023/9/17/2-oi-shutterstock-1694953624149847722825.jpg",
+      "status": 0,
+      "createdAt": "06/11/2022"
     }
   ]
 }
